@@ -52,6 +52,7 @@ namespace SimpleAPI
 
             app.UseEndpoints(endpoints =>
             {
+                
                 endpoints.MapControllers();
             });
         }
